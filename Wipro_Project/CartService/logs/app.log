@@ -1,0 +1,70 @@
+2025-08-15T20:01:46.023-04:00  INFO 844 --- [CartService] [restartedMain] com.wipro.cart.CartServiceApplication    : Starting CartServiceApplication using Java 21.0.8 with PID 844 (D:\MicroServices_Project\CartService\target\classes started by new in D:\MicroServices_Project\CartService)
+2025-08-15T20:01:46.027-04:00  INFO 844 --- [CartService] [restartedMain] com.wipro.cart.CartServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-08-15T20:01:46.115-04:00  INFO 844 --- [CartService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-15T20:01:46.119-04:00  INFO 844 --- [CartService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-15T20:01:47.932-04:00  INFO 844 --- [CartService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-15T20:01:48.116-04:00  INFO 844 --- [CartService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 170 ms. Found 1 JPA repository interface.
+2025-08-15T20:01:48.385-04:00  INFO 844 --- [CartService] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=642a6845-f0d5-3454-8671-8442645c19cb
+2025-08-15T20:01:49.104-04:00  INFO 844 --- [CartService] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8087 (http)
+2025-08-15T20:01:49.133-04:00  INFO 844 --- [CartService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-15T20:01:49.133-04:00  INFO 844 --- [CartService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-15T20:01:49.236-04:00  INFO 844 --- [CartService] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-15T20:01:49.237-04:00  INFO 844 --- [CartService] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3114 ms
+2025-08-15T20:01:49.769-04:00  INFO 844 --- [CartService] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-15T20:01:49.879-04:00  INFO 844 --- [CartService] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-15T20:01:49.941-04:00  INFO 844 --- [CartService] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-15T20:01:50.349-04:00  INFO 844 --- [CartService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-15T20:01:50.398-04:00  INFO 844 --- [CartService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-15T20:01:50.990-04:00  INFO 844 --- [CartService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7037ed14
+2025-08-15T20:01:50.994-04:00  INFO 844 --- [CartService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-15T20:01:51.073-04:00  WARN 844 --- [CartService] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-15T20:01:51.098-04:00  INFO 844 --- [CartService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-15T20:01:52.832-04:00  INFO 844 --- [CartService] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-15T20:01:53.016-04:00  INFO 844 --- [CartService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-15T20:01:53.322-04:00  WARN 844 --- [CartService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-15T20:01:54.180-04:00  WARN 844 --- [CartService] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-08-15T20:01:54.213-04:00  INFO 844 --- [CartService] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-08-15T20:01:54.270-04:00  WARN 844 --- [CartService] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-08-15T20:01:54.303-04:00  INFO 844 --- [CartService] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-15T20:01:54.443-04:00  INFO 844 --- [CartService] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-08-15T20:01:54.475-04:00  INFO 844 --- [CartService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-08-15T20:01:54.482-04:00  INFO 844 --- [CartService] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-15T20:01:54.495-04:00  INFO 844 --- [CartService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-08-15T20:01:54.496-04:00  INFO 844 --- [CartService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-08-15T20:01:54.496-04:00  INFO 844 --- [CartService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-08-15T20:01:54.496-04:00  INFO 844 --- [CartService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-08-15T20:01:54.496-04:00  INFO 844 --- [CartService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-08-15T20:01:54.497-04:00  INFO 844 --- [CartService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-08-15T20:01:54.498-04:00  INFO 844 --- [CartService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-08-15T20:01:55.007-04:00  INFO 844 --- [CartService] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-08-15T20:01:55.010-04:00  INFO 844 --- [CartService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-08-15T20:01:55.013-04:00  INFO 844 --- [CartService] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-08-15T20:01:55.017-04:00  INFO 844 --- [CartService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1755302515015 with initial instances count: 2
+2025-08-15T20:01:55.022-04:00  INFO 844 --- [CartService] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CARTSERVICE with eureka with status UP
+2025-08-15T20:01:55.023-04:00  INFO 844 --- [CartService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1755302515023, current=UP, previous=STARTING]
+2025-08-15T20:01:55.025-04:00  INFO 844 --- [CartService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CARTSERVICE/DESKTOP-SM35O6V:CartService:8087: registering service...
+2025-08-15T20:01:55.060-04:00  INFO 844 --- [CartService] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8087 (http) with context path '/'
+2025-08-15T20:01:55.062-04:00  INFO 844 --- [CartService] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8087
+2025-08-15T20:01:55.095-04:00  INFO 844 --- [CartService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CARTSERVICE/DESKTOP-SM35O6V:CartService:8087 - registration status: 204
+2025-08-15T20:01:55.100-04:00  INFO 844 --- [CartService] [restartedMain] com.wipro.cart.CartServiceApplication    : Started CartServiceApplication in 9.988 seconds (process running for 11.553)
+2025-08-15T20:01:55.555-04:00  INFO 844 --- [CartService] [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-15T20:01:55.555-04:00  INFO 844 --- [CartService] [RMI TCP Connection(8)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-15T20:01:55.559-04:00  INFO 844 --- [CartService] [RMI TCP Connection(8)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-08-15T20:03:07.819-04:00  INFO 844 --- [CartService] [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-15T20:03:07.820-04:00  INFO 844 --- [CartService] [RMI TCP Connection(9)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CARTSERVICE with eureka with status DOWN
+2025-08-15T20:03:07.821-04:00  INFO 844 --- [CartService] [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1755302587821, current=DOWN, previous=UP]
+2025-08-15T20:03:07.827-04:00  INFO 844 --- [CartService] [RMI TCP Connection(9)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-15T20:03:07.925-04:00  INFO 844 --- [CartService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CARTSERVICE/DESKTOP-SM35O6V:CartService:8087: registering service...
+2025-08-15T20:03:08.243-04:00  INFO 844 --- [CartService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-15T20:03:08.332-04:00  INFO 844 --- [CartService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CARTSERVICE/DESKTOP-SM35O6V:CartService:8087 - registration status: 204
+2025-08-15T20:03:08.351-04:00  INFO 844 --- [CartService] [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-15T20:03:08.359-04:00  INFO 844 --- [CartService] [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-15T20:03:08.387-04:00  INFO 844 --- [CartService] [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-15T20:03:08.391-04:00  INFO 844 --- [CartService] [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
